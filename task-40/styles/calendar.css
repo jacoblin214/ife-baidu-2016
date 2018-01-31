@@ -1,0 +1,28 @@
+/*
+ * @Author: jecyu 
+ * @Date: 2018-01-30 23:58:31 
+ * @Last Modified by:   jecyu 
+ * @Last Modified time: 2018-01-30 23:58:31 
+ */
+
+body {
+  background: hsl(0, 0%, 88%);
+}
+
+#cal {
+  margin: 50px auto;
+  /* 把 display 设为 table，让它的宽度为它的内容宽度 */
+  display: table;
+
+  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, san-serif;
+  -moz-box-shadow: 0 3px 3px hsla(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 3px 3px hsla(0, 0, 0, 0.25);
+  box-shadow: 0 3px 3px hsla(0, 0, 0, 0.25);
+}
+
+#cal .header {
+  cursor: default;
+  background-color: hsl(11, 88%, 43%);
+  background: -moz-linear-gradient(top, #b32b0c, #cd310d);
+  background: -webkit-linear-gradient(top, #b32b0c, #cd310d);
+}
